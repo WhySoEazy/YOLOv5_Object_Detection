@@ -1,0 +1,13 @@
+train: ../dataset/train/images
+val: ../dataset/valid/images
+test: ../dataset/test/images
+
+nc: 8
+names: ['AcneFoamingCleanser', 'ArganOilOfMorocco_Conditioner', 'BiotinCollagen_Shampoo', 'BrazilianKeratinTherapy_Shampoo', 'BrazilianKerationTherapy_Conditioner', 'CherryBlossom_Conditioner', 'CherryBlossom_Shampoo', 'HydratingFoamingCleanser']
+
+roboflow:
+  workspace: supermarketproductdetection
+  project: object_detection-39rxb
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/supermarketproductdetection/object_detection-39rxb/dataset/2
